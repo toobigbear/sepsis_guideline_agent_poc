@@ -1,0 +1,189 @@
+{
+ "best_config": {
+  "top_k": 5,
+  "round_budget": 15,
+  "history_compress": 3500,
+  "experience_min_sim": 1.5,
+  "experience_min_overlap": 2,
+  "seed_reads": 6,
+  "one_round_reads": 3,
+  "evidence_min_reads": 3,
+  "numeric_threshold": 0.85,
+  "prompt_variant": "A",
+  "answer_temperature": 0.0
+ },
+ "search_score_best": 0.8054,
+ "pareto_front": [
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 15,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 6,
+    "one_round_reads": 3,
+    "evidence_min_reads": 3,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.8054,
+   "tokens_avg": 1745
+  },
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 15,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 6,
+    "one_round_reads": 3,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.7921,
+   "tokens_avg": 1721
+  },
+  {
+   "cfg": {
+    "top_k": 8,
+    "round_budget": 15,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 6,
+    "one_round_reads": 2,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.7209,
+   "tokens_avg": 1271
+  },
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 20,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 6,
+    "one_round_reads": 2,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.7209,
+   "tokens_avg": 1271
+  },
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 15,
+    "history_compress": 5000,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 6,
+    "one_round_reads": 2,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.7209,
+   "tokens_avg": 1271
+  },
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 15,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 3,
+    "seed_reads": 6,
+    "one_round_reads": 2,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.7209,
+   "tokens_avg": 1271
+  },
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 15,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 8,
+    "one_round_reads": 2,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.7209,
+   "tokens_avg": 1271
+  },
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 15,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 6,
+    "one_round_reads": 2,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "B",
+    "answer_temperature": 0.0
+   },
+   "score": 0.7209,
+   "tokens_avg": 1271
+  },
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 15,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 6,
+    "one_round_reads": 2,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.9,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.694,
+   "tokens_avg": 1267
+  }
+ ],
+ "test": {
+  "default_config": {
+   "score": 0.8649,
+   "evidence_recall": 0.625,
+   "keyword_hit": 0.5417,
+   "citation_valid": 1.0,
+   "tokens_avg": 1043,
+   "blocked_n": 0
+  },
+  "best_config": {
+   "score": 0.8819,
+   "evidence_recall": 0.6667,
+   "keyword_hit": 0.5417,
+   "citation_valid": 1.0,
+   "tokens_avg": 1342,
+   "blocked_n": 0
+  }
+ }
+}

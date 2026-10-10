@@ -1,0 +1,53 @@
+{
+ "best_config": {
+  "top_k": 5,
+  "round_budget": 15,
+  "history_compress": 3500,
+  "experience_min_sim": 1.5,
+  "experience_min_overlap": 2,
+  "seed_reads": 6,
+  "one_round_reads": 4,
+  "evidence_min_reads": 2,
+  "numeric_threshold": 0.85,
+  "prompt_variant": "A",
+  "answer_temperature": 0.0
+ },
+ "search_score_best": 0.8143,
+ "pareto_front": [
+  {
+   "cfg": {
+    "top_k": 5,
+    "round_budget": 15,
+    "history_compress": 3500,
+    "experience_min_sim": 1.5,
+    "experience_min_overlap": 2,
+    "seed_reads": 6,
+    "one_round_reads": 4,
+    "evidence_min_reads": 2,
+    "numeric_threshold": 0.85,
+    "prompt_variant": "A",
+    "answer_temperature": 0.0
+   },
+   "score": 0.8143,
+   "tokens_avg": 4211
+  }
+ ],
+ "test": {
+  "default_config": {
+   "score": 0.866,
+   "evidence_recall": 0.625,
+   "keyword_hit": 0.5556,
+   "citation_valid": 1.0,
+   "tokens_avg": 2542,
+   "blocked_n": 0
+  },
+  "best_config": {
+   "score": 0.9169,
+   "evidence_recall": 0.6667,
+   "keyword_hit": 0.6667,
+   "citation_valid": 1.0,
+   "tokens_avg": 4316,
+   "blocked_n": 0
+  }
+ }
+}
